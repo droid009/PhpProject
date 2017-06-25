@@ -1,0 +1,70 @@
+body{
+	margin-top: 50px;
+	align-items: center;
+}
+
+#main-wrapper{
+	width: 500px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 5px;
+	padding-top: 10px;
+	border: 2;
+}
+.avatar{
+	width:150px;
+	text-align:center;
+	
+}
+.myform{
+	width: 450px;
+	margin: 0 auto;
+}
+.inputvalues{
+	width: 100%;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+#login{
+	margin-top: 10px;
+	width: 100%;
+	background-color: #27ae60;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#register{
+	margin-top: 10px;
+	width: 100%;
+	background-color: #27ae60;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+#back_btn{
+	margin-top: 10px;
+	width: auto;
+	background-color: #27ae60;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+#logout{
+	margin-top: 10px;
+	width: 100%;
+	background-color: #27ae60;
+	padding: 5px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
