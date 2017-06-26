@@ -1,21 +1,27 @@
-n<!DOCTYPE html>
+<?php
+	session_start();
+	require_once('dbconfig/config.php');
+	//phpinfo();
+?>
+<!DOCTYPE html>
 <html>
 <head>
-	<title>Login And Registration</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Home Page</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color: #7f8c8d">
+<body>
+	<div id="main-wrapper">
+		<center><h2>Home Page</h2></center>
+		<center><h3>Welcome <?php echo $_SESSION['username']; ?></h3></center>
 		
-		<div id="main-wrapper">
-			<center>
-				<h1>SignUp</h1>
-				<h3>Welcome User</h3>
-				<img src="img/gravatar.jpg" class="avatar" />
-			</center>
-					<form class="myform" action="index.php" method="post">
-						<input type="button" name="" id="logout" value="Logout">
-					</form>
+		<form action="index.php" method="post">
+			<div class="imgcontainer">
+				<img src="imgs/avatar.png" alt="Avatar" class="avatar">
 			</div>
-		</div>
+			<div class="inner_container">
+				<button class="logout_button" type="submit">Log Out</button>	
+			</div>
+		</form>
+	</div>
 </body>
 </html>

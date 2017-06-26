@@ -1,70 +1,82 @@
-body{
-	margin-top: 50px;
-	align-items: center;
+/*CSS file*/
+
+input{
+    width: 430px;
+	margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
 
 #main-wrapper{
+	border-radius : 10px;
+	background-color: white;
+	border: 3px solid #f1f1f1;
 	width: 500px;
 	margin: 0 auto;
-	background-color: white;
-	padding: 5px;
-	padding-top: 10px;
-	border: 2;
 }
-.avatar{
-	width:150px;
-	text-align:center;
+.inner_container{
+	width:450px;
+	margin:0 auto;
+}
+.login_button {
+    background-color: #4CAF50;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
+	font-weight: bold;
+}
+.register_btn{
+	background-color: #3498db;
+    color: white;
+	margin-top:10px;
+	margin-bottom:15px;
+	padding:10px;
+    width: 100%;
+	font-size:16px;
+	font-weight: bold;
 	
 }
-.myform{
-	width: 450px;
-	margin: 0 auto;
-}
-.inputvalues{
-	width: 100%;
-	margin: 0 auto;
-	padding: 5px;
-}
-
-#login{
-	margin-top: 10px;
-	width: 100%;
-	background-color: #27ae60;
-	padding: 5px;
+.back_btn{
+	margin-top:10px;
 	color: white;
-	text-align: center;
-	font-size: 18px;
+	margin-bottom:15px;
+    padding: 10px;
+    background-color: #e67e22;
+}
+.logout_button{
+	background-color: #c0392b;
+    color: white;
+	margin-top:10px;
+    padding:10px;
+    width: 100%;
+	font-size:18px;
 	font-weight: bold;
 }
 
-#register{
-	margin-top: 10px;
-	width: 100%;
-	background-color: #27ae60;
-	padding: 5px;
-	color: white;
-	text-align: center;
-	font-size: 18px;
+.sign_up_btn {
+	background-color: #3498db;
+    color: white;
+	 padding:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+    width: 100%;
+	font-size:16px;
 	font-weight: bold;
 }
-#back_btn{
-	margin-top: 10px;
-	width: auto;
-	background-color: #27ae60;
-	padding: 5px;
-	color: white;
-	text-align: center;
-	font-size: 18px;
-	font-weight: bold;
 
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
 }
-#logout{
-	margin-top: 10px;
-	width: 100%;
-	background-color: #27ae60;
-	padding: 5px;
-	color: white;
-	text-align: center;
-	font-size: 18px;
-	font-weight: bold;
+
+img.avatar {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.container {
+    margin: 16px;
+	width:100%;
 }
